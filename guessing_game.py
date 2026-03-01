@@ -7,12 +7,12 @@ while i!=0:
         print("Correct!!! YOU WON!")
         break
     elif y<x:
-        y=int(input(f"Low Guess! You have {i} chance left. Guess Again: "))
+        y=int(input(f"Low Guess! You have {i} more chances left. Guess Again: "))
         i-=1
         if i==0:
             print("LOST!!!")
     elif y>x:
-        y=int(input(f"High Guess! You have {i} chance left. Guess Again: "))
+        y=int(input(f"High Guess! You have {i} more chances left. Guess Again: "))
         i-=1
         if i==0:
             print("LOST!!!")
